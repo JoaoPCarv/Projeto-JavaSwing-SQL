@@ -7,13 +7,12 @@
 
 package classes;
 
-import managers.ClienteManager;
+import managers.ManagerFactory;
 
 public class Executor {
 	
 	public static void main(String args[]) {
 		
-		ClienteManager mng1 = new ClienteManager();
-		mng1.startManager(); 
+		ManagerFactory.getManager("Cliente").startManager();
 	};
 }

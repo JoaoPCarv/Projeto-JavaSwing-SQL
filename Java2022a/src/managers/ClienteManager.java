@@ -126,6 +126,7 @@ public class ClienteManager implements manager {
 		
 	}
 	
+	@Override
 	public void startManager() {
 		
 		this.setjInicio();
